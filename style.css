@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Anzeige {
+    background-color: rgb(58, 58, 58);
+    justify-content: right;
+    padding-right: 100px;
+    height: 280px;
+    font-size: 100px;
+    display: flex;
+    gap: 25px;
+    border-bottom: 10px rgb(27, 27, 27) solid;
+}
+
+.Rechnung {
+    color: rgb(195, 195, 195);
+    padding-top: 10px;
+}
+
+.Ergebnis {
+    position: absolute;
+    color: rgb(255, 153, 0);
+    padding-top: 150px;
+}
+
+.ButtonsMain {
+    display: flexbox;
+    padding-top: 100px;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+#Orange {
+    color: rgb(255, 153, 0);
+}
+
+.ButtonsMain button {
+    background-color: rgba(0, 0, 0, 0.13);
+    font-size: 100px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50px 30px; 
+    border: 4px double rgba(85, 85, 85, 0.774);
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.ButtonsMain button:hover {
+    border: 5px double rgba(85, 85, 85, 0.774);
+    color: rgb(122, 122, 122);
+}
+
+.Mocko {
+    display: flex;
+    font-size: 100px;
+    color: rgb(138, 138, 138);
+    justify-content: center;
+    font-weight: bolder;
+}
