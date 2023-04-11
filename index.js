@@ -32,8 +32,13 @@ function Rechnungen(Taste) {
             Rechnung.innerHTML = R;
         }
     }
-    else if (Taste == ")" && M2 == "(") {
-        Taste = "0)";
+    else if (Taste == ")") {
+        if (M2 == "(") {
+            M2 = Taste;
+            Taste = "0)";
+            R = R+Taste;
+            Rechnung.innerHTML = R;
+        }
     }
     else if (Taste == "Clear") {
         R = ""
